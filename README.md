@@ -16,7 +16,6 @@ Need help? Chat with us on our Discord server: https://discord.gg/RNNg5TS7h5
 
 - Download and use Lua files for games and download manifests.
 - Write Lua and manifest data into Steam's config.
-- **Multi-language GUI** — English
 - Parallel downloads, backups, recent files, and settings export/import.
 - **Store tab** — ⭐ **THIS IS THE MAIN WAY TO DOWNLOAD GAMES.** browse Hubcap's manifest library to find games and download either using the Steam download function for downloading latest versions very quick.
 - **Main tab "Download Game"** — Downloads the **latest version** of a game directly from Steam.
