@@ -1,149 +1,227 @@
 # PHC-Portal
 
-## Educational use only. Use at your own risk.
-
 <div align="center">
 
-**A comprehensive Steam depot and manifest management tool**
+### A modern Steam depot & manifest management application
 
-[Latest Release](https://github.com/PHC-Team/PHC-Portal/releases/latest)
+> **⚠️ Prototype Notice**
+> PHC-Portal is currently in active development. Some features, including the manifest generator and several integrated tools, are still a work in progress.
+
+[**⬇ Download Latest Release**](https://github.com/PHC-Team/PHC-Portal/releases/latest)
 
 </div>
 
 ---
 
-## Description
+# Features
 
-PHC-Portal is a powerful Windows desktop application for managing Steam game depots and manifests. Built with .NET 8 and WPF, it features a modern Steam-inspired interface with two operation modes: **SteamTools** (Lua scripts) and **DepotDownloader** (direct game file downloads).
+## 📦 Manifest Library
 
-## Key Features
+Manage and download Steam manifests from a large online database.
 
-### Two Operation Modes
-- **SteamTools Mode**: Install and manage Lua scripts for Steam games via manifest downloads
-- **DepotDownloader Mode**: Download actual game files directly from Steam's CDN with language and depot selection
+* Browse **100,000+** game manifests
+* Search by **Game ID** or **Name**
+* Language and depot selection
+* One-click downloads
+* Automatic installation
+* Download history with statistics
+* Live progress, speed, and ETA
 
-### Store & Downloads
-- **Manifest Library**: Browse and search 1000+ games from hubcapmanifest.com with pagination
-- **One-Click Downloads**: Download game manifests with automatic depot key lookup
-- **Language & Depot Selection**: Fine-grained control over what gets downloaded
-- **Progress Tracking**: Real-time download progress with speed and ETA display
-- **Auto-Installation**: Automatically install downloads upon completion
-- **Download History**: Track all downloads by mode with total size statistics
-- **Workshop Downloader**: Download Steam Workshop items via the manifest API
+---
 
-### Fix Game (Goldberg Emulator Integration)
-- **Automatic Goldberg Application**: After DepotDownloader downloads, automatically applies Goldberg Steam Emulator so games are ready to play
-- **SteamStub DRM Unpacker**: Unpacks SteamStub DRM protection from executables (7 variant unpackers)
-- **DRM Detection**: Detects DRM types and blocks unsupported protection (e.g. Denuvo)
-- **Full Emulator Config Generation**: Auto-generates achievements, stats, DLC, and cloud save directories from Lua files and PICS data
-- **Launch Config Selection**: Picks the correct executable and arguments from Steam's PICS data
-- **ColdClient Mode**: Loader injection support for games that need it
+## 🎮 Game Preparation (Goldberg Integration)
 
-### Library Management
-- **Multi-Source Library**: View Lua scripts and Steam games in a unified interface
-- **List/Grid View Toggle**: Switch between compact list (with stats) and detailed grid views
-- **Image Caching**: SQLite database caching with in-memory bitmap caching
-- **Search & Sort**: Filter by name with multiple sorting options
-- **Batch Operations**: Bulk enable/disable auto-updates
-- **Export Luas**: Backup all Lua files in one zip
+Automatically prepare downloaded games for offline use.
 
-### Cloud Saves
-- **CloudRedirect Integration**: Full cloud save system with provider support (Dropbox, OneDrive, Google Drive)
-- **Cloud Dashboard**: Monitor and manage cloud save status
-- **App Pinning**: Pin games to sync across devices
-- **Cloud Cleanup**: Remove orphaned backups
+* Automatic Goldberg Steam Emulator setup
+* SteamStub DRM unpacking (7 supported variants)
+* Unsupported DRM detection (including Denuvo)
+* Automatic emulator configuration generation
+* Achievement, DLC, stats, and cloud-save configuration
+* Automatic launch executable detection
+* ColdClient loader support
 
-### Integrated Tools
-- **DepotDumper**: Extract depot information with 2FA QR code support
-- **DepotDownloader**: Download files from Steam CDN with progress tracking
-- **Config VDF Extractor**: Extract depot keys from Steam's config.vdf
-- **GBE Token Generator**: Generate Goldberg emulator tokens with auto-fetch of achievements, depots, DLCs, and language data
+---
 
-### User Experience
-- **11 Themes**: Default, Dark, Light, Cherry, Sunset, Forest, Grape, Cyberpunk, Pink, Pastel, Rainbow
-- **Custom Theme Editor**: Full color customization with gradient editor, background/sidebar images, live preview, and export/import via share strings
-- **UI Scale Slider**: 70% to 150% scaling
-- **DPI Scaling**: PerMonitorV2 support for high-DPI displays
-- **Responsive UI**: Adapts to window sizes down to 800x600
-- **Auto-Updates**: Three modes - Disabled, Check Only, Auto Download & Install
-- **System Tray**: Minimize to tray with quick access menu
-- **Toast Notifications**: Native Windows 10+ notifications (can be disabled)
-- **Protocol Handler**: `hubcapapp://` URI scheme for one-click actions from browsers
-- **Single Instance**: Prevents multiple app instances
-- **Settings Backup**: Export and import settings and mod lists
+## 📚 Library Management
 
-## Installation
+Organize your downloaded games and Lua scripts.
 
-### Quick Start
+* Unified Steam & Lua library
+* List and Grid view modes
+* Fast SQLite image caching
+* Search and sorting
+* Batch auto-update management
+* Export all Lua files as ZIP
 
-1. Download the latest release from [Releases](https://github.com/PHC-Team/PHC-Portal/releases/latest)
-2. Run `PHC-Portal.exe`
+---
 
-**That's it!** No installation required.
+## ☁️ Cloud Saves
 
-### Requirements
+Powered by CloudRedirect.
 
-- Windows 10 version 1903 or later
-- ~200MB disk space
-- Internet connection for downloading depots
+* Dropbox support
+* OneDrive support
+* Google Drive support
+* Cloud save dashboard
+* Pin games across devices
+* Remove orphaned backups
 
-### First Launch
+---
 
-On first launch, the app will:
-- Create settings in `%AppData%\PHC-Portal`
-- Detect your Steam installation automatically
-- Create local SQLite database for library caching
+## 🛠 Integrated Tools
 
-## Configuration
+PHC-Portal includes several built-in utilities.
 
-Settings are stored in `%AppData%\PHC-Portal` and include:
+* DepotDownloader
+* DepotDumper
+* Config.vdf Extractor
+* Goldberg Token Generator
 
-| Category | Options |
-|----------|---------|
-| Mode | SteamTools, DepotDownloader |
-| Downloads | Auto-install, delete ZIP after install, output path |
-| Display | Theme selection, custom theme editor, UI scale, window size/position, list/grid view |
-| Notifications | Enable/disable toasts and popups |
-| Auto-Update | Disabled, Check Only, Auto Download & Install |
-| Keys | Auto-upload config keys to community database |
-| Cloud | Cloud provider credentials, pinned apps, backup locations |
+Features include:
 
-## URI Scheme
+* Steam CDN downloads
+* Depot information extraction
+* 2FA QR code support
+* Depot key extraction
+* Automatic achievement, DLC, language, and depot metadata retrieval
 
-The app registers a `hubcapapp://` protocol handler for quick actions from web browsers or other applications. See [`docs/URI_PROTOCOL.md`](docs/URI_PROTOCOL.md) for full documentation.
+---
 
-| URL Format | Action |
-|------------|--------|
-| `hubcapapp://download/{appId}` | Download manifest for the specified App ID |
-| `hubcapapp://install/{appId}` | Install a previously downloaded game |
-| `hubcapapp://download/install/{appId}` | Download and install in one step |
+## 🎨 Customization
 
-## Technology
+Personalize the application.
 
-- .NET 8.0 with WPF
-- Self-contained single-file executable (win-x64)
-- SteamKit2 for Steam protocol integration
-- SQLite for local caching
-- protobuf-net for binary serialization
-- Windows Toast Notifications
-- CommunityToolkit.Mvvm for MVVM architecture
+### Themes
 
-## Credits
+* Dark
+* Steam
+* Light
+* Cherry
+* Sunset
+* Forest
+* Grape
+* Cyberpunk
+* Pink
+* Pastel
+* Rainbow
 
-**Made by PHC-Team**
+Additional customization includes:
 
-### Integrated Tools
-- [DepotDumper](https://github.com/NicknineTheEagle/DepotDumper) by NicknineTheEagle
-- [DepotDownloader](https://github.com/SteamRE/DepotDownloader) by SteamRE
-- [Steamless](https://github.com/atom0s/Steamless) by atom0s (SteamStub unpacker variants)
-- [Goldberg Steam Emulator](https://gitlab.com/Mr_Goldberg/goldberg_emulator) by Mr_Goldberg
-- [CloudRedirect](https://github.com/Selectively11/CloudRedirect) by Selectively11 (Integration unavalible at the moment!)
+* Full custom theme editor
+* Gradient editor
+* Sidebar & background images
+* Live preview
+* Theme import/export
+* UI scaling (70%–150%)
+* High-DPI support
+
+---
+
+## ⚡ Quality of Life
+
+* Automatic updates
+* Native Windows notifications
+* Minimize to system tray
+* Single-instance protection
+* Responsive interface
+* Settings backup & restore
+
+---
+
+# 🚀 Project Roadmap
+
+Want to see what changed in the latest release?
+
+Check out **[CHANGELOG](CHANGELOG.md)** to see what changed or got improved.
+
+Want to see what's planned for future releases?
+
+Check out **[COMING-SOON](COMING-SOON.md)** to see upcoming features, improvements, and ongoing development plans.
+
+---
+
+# Installation
+
+## Requirements
+
+* Windows 10 or Windows 11
+* .NET is **not required** (self-contained executable)
+* Approximately 150 MB of free disk space
+* Internet connection
+
+## Quick Start
+
+1. Download the latest release.
+2. Run **PHC-Portal.exe**.
+3. Enjoy.
+
+No installation is required.
+
+---
+
+# First Launch
+
+PHC-Portal will automatically:
+
+* Detect your Steam installation
+* Create its configuration folder
+* Create the local SQLite cache database
+
+Configuration is stored in:
+
+```text
+%AppData%\PHC-Portal
+```
+
+---
+
+# Configuration
+
+| Category      | Description                               |
+| ------------- | ----------------------------------------- |
+| Downloads     | Output folder, auto-install, ZIP cleanup  |
+| Display       | Themes, UI scale, layout, window settings |
+| Notifications | Toasts and popup settings                 |
+| Updates       | Disabled, Check Only, Auto Update         |
+| Cloud         | Provider configuration and pinned games   |
+| Keys          | Community depot key uploads               |
+| Mode          | SteamTools or DepotDownloader             |
+
+---
+
+# Built With
+
+* .NET 8
+* WPF
+* SteamKit2
+* SQLite
+* protobuf-net
+* CommunityToolkit.Mvvm
+* Windows Toast Notifications
+
+---
+
+# Credits
+
+## PHC-Team
+
+PHC-Portal is developed and maintained by **PHC-Team**.
+
+### Included Projects
+
+* DepotDownloader — SteamRE
+* DepotDumper — NicknineTheEagle
+* Steamless — atom0s
+* Goldberg Steam Emulator — Mr_Goldberg
+* CloudRedirect — Selectively11 *(Patcher integration coming soon)*
 
 ---
 
 <div align="center">
 
+### Community
 
-[Discord](https://discord.gg/RNNg5TS7h5) | [GitHub](https://github.com/PHC-Team/)
+[GitHub](https://github.com/PHC-Team/) • [Discord](https://discord.gg/RNNg5TS7h5)
 
 </div>
