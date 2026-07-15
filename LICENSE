@@ -1,15 +1,31 @@
-PHC-Portal License
+# PHC-Portal License
 
-Copyright (c) 2026 PHC-Team. All rights reserved.
+Copyright © 2026 PHC-Team. All rights reserved.
 
-Permission is granted to use this software for personal and commercial purposes.
+## License Grant
+
+Permission is granted to use this software solely for personal, non-commercial purposes.
+
+## Restrictions
 
 You may not:
 
-- Modify, reverse engineer, or create derivative works from this software.
-- Redistribute, sell, sublicense, or repackage this software without prior written permission from PHC-Team.
-- Remove or alter any copyright or ownership notices.
+* Modify, adapt, reverse engineer, decompile, disassemble, or create derivative works based on this software.
+* Copy, redistribute, publish, sell, sublicense, lease, rent, or otherwise make this software available to any third party without prior written permission from PHC-Team.
+* Remove, alter, or obscure any copyright, trademark, or other proprietary notices contained in the software.
 
-This software is provided AS IS, without warranty of any kind, express or implied. PHC-Team shall not be liable for any damages arising from the use or inability to use this software.
+## Ownership
 
-By using this software, you agree to the terms of this license.
+This software is licensed, not sold. PHC-Team retains all rights, title, and interest in and to the software, including all intellectual property rights not expressly granted under this license.
+
+## Disclaimer of Warranty
+
+This software is provided **"AS IS"**, without warranty of any kind, whether express, implied, or statutory, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, non-infringement, or uninterrupted operation.
+
+## Limitation of Liability
+
+To the maximum extent permitted by applicable law, PHC-Team shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages arising out of or relating to the use of, or inability to use, this software, even if advised of the possibility of such damages.
+
+## Acceptance
+
+By downloading, installing, copying, or using this software, you acknowledge that you have read, understood, and agree to be bound by the terms of this license.
