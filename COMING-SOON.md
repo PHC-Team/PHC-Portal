@@ -2,6 +2,8 @@
 
 PHC-Portal is actively being developed, with new features, guides, and improvements on the way. Here's a preview of what's currently in development.
 
+---
+
 ## 📖 Hypervisor Guide
 
 Comprehensive documentation covering Hypervisor-based Denuvo bypasses. The guide will include step-by-step Hypervisor setup instructions, troubleshooting tips, frequently asked questions, best practices, and information on obtaining the required Hypervisor files.
