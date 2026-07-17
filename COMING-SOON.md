@@ -4,6 +4,12 @@ PHC-Portal is actively being developed, with new features, guides, and improveme
 
 ---
 
+## 📖 #### Guide
+
+A #### guide covering the most common questions, setup steps, and solutions to frequently encountered issues. It's designed to help users get started quickly and resolve problems.
+
+---
+
 ## 📖 Hypervisor Guide
 
 Comprehensive documentation covering Hypervisor-based Denuvo bypasses. The guide will include step-by-step Hypervisor setup instructions, troubleshooting tips, frequently asked questions, best practices, and information on obtaining the required Hypervisor files.
@@ -26,7 +32,8 @@ A growing collection of troubleshooting guides for common issues that may occur 
 
 Native **CloudRedirect** integration is currently in development, providing a smoother cloud save experience and simplified game management.
 
-Until then, you can download CloudRedirect from [here](https://github.com/Selectively11/CloudRedirect).
+Until then, you can download CloudRedirect from here:
+https://github.com/Selectively11/CloudRedirect
 
 ---
 
