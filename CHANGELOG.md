@@ -6,3 +6,10 @@
 
 * Improved the **Guides** tab so it no longer displays content as plain text. Guides now support proper formatting, working links, and Markdown-style functionality for a better reading experience.
 * Added **WebView2** integration to the app, allowing the updated Guides tab to render content properly. This also creates a foundation for future updates, enabling additional features and more advanced interactive functionality within the application.
+
+## Changes Without a New PHC-Portal Update
+
+### Guides
+
+* Improved the **Hypervisor Guide** by making the request section easier to read.
+* Improved the **Denuvo Guide** by making the request section easier to read.

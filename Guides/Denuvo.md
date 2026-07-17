@@ -65,13 +65,13 @@ Bypass files are created for specific games and, in many cases, specific game ve
 
 # Request a Denuvo Bypass
 
-Bypass files for supported games are available through our Discord server.
+If you'd like to request a bypass for a Denuvo-protected game, please submit your request in our Discord server.
 
-Before making a request, please keep the following in mind:
+Before requesting a bypass, please note the following:
 
-* Not every Denuvo-protected game currently has a bypass available.
-* Please check the **Supported Games** list before requesting files.
-* If your game does not have a standard bypass, check whether a Hypervisor-based bypass is available instead.
-* If neither option is currently supported, you'll need to wait until support is added. Some games may never receive a public bypass.
+* Not all Denuvo-protected games currently have a bypass available.
+* Check the **Supported Games** list before requesting any files.
+* If a standard bypass isn't available for your game, see if a Hypervisor-based bypass is supported instead.
+* If neither option is available, you'll need to wait until support is added. Please note that some games may never receive a public bypass.
 
-We appreciate your patience and understanding while new bypasses are being prepared.
+Thank you for your patience and understanding as we continue expanding support.

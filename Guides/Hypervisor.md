@@ -147,12 +147,13 @@ https://cs.rin.ru/forum/viewtopic.php?f=10&t=156407
 
 # Request a Hypervisor Bypass
 
-If you would like to request a Hypervisor bypass for a Denuvo-protected game, please make a request in our Discord server.
+If you'd like to request a Hypervisor bypass for a Denuvo-protected game, please submit your request in our Discord server.
 
-Please keep in mind:
+Before requesting a bypass, please note the following:
 
-* Not every Denuvo game has a Hypervisor bypass available.
-* Only supported games can receive a Hypervisor bypass.
-* Please check the supported game list before making a request.
+* Not all Denuvo-protected games currently have a Hypervisor bypass available.
+* Only games listed as supported are eligible for a Hypervisor bypass.
+* Check the **Supported Games** list before requesting any files.
+* If a Hypervisor bypass isn't available for your game, check whether a standard Denuvo bypass is supported instead.
 
-We appreciate your understanding and patience when requesting new bypasses.
+Thank you for your patience and understanding as we continue expanding support.
