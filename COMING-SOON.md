@@ -1,12 +1,12 @@
 # 🚧 Coming Soon
 
-PHC-Portal is actively being developed, with new features, guides, and improvements on the way. Here's a preview of what's currently in development.
+Revix-Portal is actively being developed, with new features, guides, and improvements on the way. Here's a preview of what's currently in development.
 
 ---
 
-## 📖 #### Guide
+## 📖 General Guide
 
-A #### guide covering the most common questions, setup steps, and solutions to frequently encountered issues. It's designed to help users get started quickly and resolve problems.
+A General guide covering the most common questions, setup steps, and solutions to frequently encountered issues. It's designed to help users get started quickly and resolve problems.
 
 ---
 
@@ -51,7 +51,7 @@ We're continuously fixing reported issues, improving application stability, and 
 
 ## 💬 Community-Driven Development
 
-Your feedback plays an important role in shaping PHC-Portal.
+Your feedback plays an important role in shaping Revix-Portal.
 
 We'll continue prioritizing community suggestions, quality-of-life improvements, and new feature ideas to make the application even better for everyone.
 
@@ -59,6 +59,6 @@ We'll continue prioritizing community suggestions, quality-of-life improvements,
 
 # ❤️ Thank You
 
-A huge thank you to everyone who has tested PHC-Portal, reported bugs, suggested new features, and shared valuable feedback.
+A huge thank you to everyone who has tested Revix-Portal, reported bugs, suggested new features, and shared valuable feedback.
 
 Every report, suggestion, and contribution helps improve the project. Your continued support is greatly appreciated.

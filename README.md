@@ -1,13 +1,13 @@
-# PHC-Portal
+# Revix-Portal
 
 <div align="center">
 
 ### A modern Steam depot & manifest management application
 
 > **⚠️ Prototype Notice**
-> PHC-Portal is currently in active development. Some features, including the manifest generator and several integrated tools, are still a work in progress.
+> Revix-Portal is currently in active development. Some integrated tools, are still a work in progress.
 
-[**⬇ Download Latest Release**](https://github.com/PHC-Team/PHC-Portal/releases/latest)
+[**⬇ Download Latest Release**](https://github.com/Revix-Systems/Revix-Portal/releases/latest)
 
 </div>
 
@@ -71,7 +71,7 @@ Powered by CloudRedirect.
 
 ## 🛠 Integrated Tools
 
-PHC-Portal includes several built-in utilities.
+Revix-Portal includes several built-in utilities.
 
 * DepotDownloader
 * DepotDumper
@@ -153,7 +153,7 @@ Check out **[COMING-SOON](COMING-SOON.md)** to see upcoming features, improvemen
 ## Quick Start
 
 1. Download the latest release.
-2. Run **PHC-Portal.exe**.
+2. Run **Revix-Portal.exe**.
 3. Enjoy.
 
 No installation is required.
@@ -162,7 +162,7 @@ No installation is required.
 
 # First Launch
 
-PHC-Portal will automatically:
+Revix-Portal will automatically:
 
 * Detect your Steam installation
 * Create its configuration folder
@@ -171,7 +171,7 @@ PHC-Portal will automatically:
 Configuration is stored in:
 
 ```text
-%AppData%\PHC-Portal
+%AppData%\Revix-Portal
 ```
 
 ---
@@ -204,9 +204,9 @@ Configuration is stored in:
 
 # Credits
 
-## PHC-Team
+## Revix Systems
 
-PHC-Portal is developed and maintained by **PHC-Team**.
+Revix-Portal is developed and maintained by **Revix Systems**.
 
 ### Included Projects
 
